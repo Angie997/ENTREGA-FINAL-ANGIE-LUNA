@@ -1,0 +1,98 @@
+/*-----SERVICIOS-----*/
+
+/*-intro-products-*/
+.intro-products {
+    @extend %intro;
+    div {
+        @extend %div;
+        h1 {
+            @extend %title;
+        }
+        p {
+            @extend %paragraph;
+        }
+    }
+    img{
+        @extend %img;
+    }
+}
+
+/*-galeria-*/
+.gallery {
+    margin-top: 100px;
+    h3 {
+        @include text (nth($font-size , 6 ), 400, 5px, 20px 10px 10px 10px);
+        text-transform: uppercase;
+        text-align: center;
+    }
+    h2 {
+        @include text (nth($font-size , 5 ), 200, 0.5px, 0px 10px 10px 10px);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .gallery-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        color: nth($text-colour , 1 );
+        .gallery-products {
+            width: 400px;
+            height: 650px;
+            margin: 20px 20px;
+            color: nth($text-colour , 1 );
+            div {
+                img {
+                    width: 400px;
+                    height: 100%;
+                    object-fit: contain;
+                    margin-bottom: 10px;
+                    border-radius: 16px;
+                }
+                h4 {
+                    @include text (nth($font-size , 7 ), 400, 2px, 10px 0px 0px 0px);
+                    text-transform: uppercase;
+                }
+                p {
+                    font-weight: 200;
+                    font-size: nth($font-size , 8 );
+                    margin-bottom: 20px;
+                }
+            }
+            .colour-circle {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-bottom: 40px;
+                .colour {
+                    width: 32px;
+                    height: 32px;
+                    background-color: nth($colour-palette , 8 ) ;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    transition: 500ms ease;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: nth($colour-palette , 6 );
+                        border-radius: 50%;
+                    }
+                }
+            }
+            a{
+                font-size: map-get($button , fnt-size );
+                font-weight: map-get($button , fnt-weight );
+                text-decoration: map-get($button , deco );
+                color: map-get($button , fnt-colour );
+                border: map-get($button , bord );
+                border-radius: map-get($button , b-radius );
+                padding: map-get($button , padd );
+                transition: map-get($button , trans );
+                cursor: map-get($button , cur );
+                &:hover {
+                    color: nth($text-colour , 3 );
+                    background-color: nth($colour-palette , 5 );
+                }
+            }
+        }
+    }
+}
