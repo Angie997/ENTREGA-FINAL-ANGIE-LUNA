@@ -1,7 +1,8 @@
+
 {
-  "name": "gamashop-project",
+  "name": "angeli-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de accsesorios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark-lex/gamashop-proj.git"
+    "url": "git+https://github.com/Angie997/ENTREGA-FINAL-ANGIE-LUNA .git"
   },
-  "author": "",
+  "author": "Angie Luna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mark-lex/gamashop-proj/issues"
+    "url": "https://github.com/Angie997/ENTREGA-FINAL-ANGIE-LUNA/issues"
   },
-  "homepage": "https://github.com/mark-lex/gamashop-proj#readme",
+  "homepage": "https://github.com/Angie997/ENTREGA-FINAL-ANGIE-LUNA#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
