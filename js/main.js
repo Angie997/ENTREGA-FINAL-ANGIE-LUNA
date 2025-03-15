@@ -1,4 +1,4 @@
-//? PRE-ENTREGA 2
+//? ENTREGA FINAL - ANGIE LUNA
 
 //! CARGA DATOS PARA REGISTRO
 alert("Te damos la bienvenida a GamaShop.\nPor favor, regístrate para comenzar a comprar.");
@@ -22,44 +22,45 @@ console.log("Guarda esta información en un lugar seguro para tus futuras compra
 
 const searchProducts = [
     {
-        name: "joggers drill",
-        price: 35
+        name: "Cartera Negra",
+        price: 150
     },
     {
-        name: "joggers french-terry",
-        price: 20
+        name: "Cartera Marron",
+        price: 200
     },
     {
-        name: "polos camiseros",
-        price: 25
+        name: "Cartera Tachas",
+        price: 250
     },
     {
-        name: "polos",
-        price: 22
+        name: "Cartera Flecos",
+        price: 220
     },
     {
-        name: "shorts",
-        price: 13
+        name: "Cartera Rosa",
+        price: 130
     },
     {
-        name: "vinchas",
-        price: 5
+        name: "Cartera Plateada",
+        price: 180
+       
     },
     {
-        name: "peinetas",
-        price: 7
+        name: "Sombrero",
+        price: 70
     },
     {
-        name: "medias",
-        price: 10
+        name: "Cinto",
+        price: 50
     },
     {
-        name: "toallas",
-        price: 23
+        name: "Cartera Rosa",
+        price: 230
     },
     {
-        name: "gorros",
-        price: 15
+        name: "Mochila",
+        price: 150
     },
 ];
 
@@ -86,28 +87,32 @@ console.log(found);
 //LISTA DE PRODUCTOS
 let products = [
     {
-        name: "joggers",
-        price: 35
+        name: "Cartera Negra",
+        price: 150
     },
     { 
-        name: "polos",
-        price: 25
+        name: "Cartera Marron",
+        price: 200
+    
     },
     { 
-        name: "vinchas",
-        price: 5
+        name: "Cartera Tachas",
+        price: 250
     },
     { 
-        name: "peinetas",
-        price: 7
+        name: "cartera Flecos",
+        price: 220
+       
     },
     { 
-        name: "medias (pack x3)",
-        price: 10
+        name: "Cartera Rosa",
+        price: 130
+       
     },
     { 
-        name: "toallas",
-        price: 18
+        name: "Sombrero",
+        price: 70
+    
     },
 ];
 
@@ -175,11 +180,11 @@ function showProducts() {
   //EJECUTAR COMPRA DE PRODUCTOS
     buyProducts();
 
-//! ESCOGE COLOR Y TALLA DEL PRODUCTO
+//! ESCOGE COLOR 
 
 while(true){
-    let colour = prompt("Elige un color (negro, azul, guinda y blanco)").toString().toUpperCase();
-    let size = prompt("Ahora, elige una talla (S, M, L, XL)").toString().toUpperCase();
+    let colour = prompt("Elige un color (negro, rosa, marron y plateado)").toString().toUpperCase();
+    let size = prompt("Ahora, elige una medida (S, M, L, XL)").toString().toUpperCase();
 
     switch (colour) {
         case "NEGRO":

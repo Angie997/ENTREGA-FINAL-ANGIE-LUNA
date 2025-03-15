@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans", sans-serif; }
 
 .intro, .intro-service, .intro-products, .intro-contact {
-  background-color: rgba(240, 223, 255, 0.4);
+  background-color: rgba(255, 188, 253, 0.982);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -43,7 +43,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #9f63ff;
+  background-color: #ffa2ff;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -96,7 +96,7 @@ header {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #9f63ff;
+    background-color: #f0b5ff;
     border-radius: 10px;
     padding: 15px;
     transition: 300ms ease-in;
@@ -104,7 +104,7 @@ header {
     cursor: pointer; }
     .hero a:hover {
       color: white;
-      background-color: #7b48db;
+      background-color: #000000;
       transform: scale(1.1); }
 
 /*-servicios-*/
@@ -153,8 +153,8 @@ header {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #9f63ff;
-        border: 1px solid #9f63ff;
+        color: #ecadff;
+        border: 1px solid #000000;
         border-radius: 10px;
         padding: 15px;
         transition: 300ms ease-in;
@@ -162,7 +162,7 @@ header {
         cursor: pointer; }
         .servicios .servicios-tipos div a:hover {
           color: white;
-          background-color: #9f63ff; }
+          background-color: #e99bff; }
 
 /*-productos-*/
 .productos {
@@ -225,15 +225,15 @@ header {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #9f63ff;
-        border: 1px solid #9f63ff;
+        color: #000000;
+        border: 1px solid #000000;
         border-radius: 10px;
         padding: 15px;
         transition: 300ms ease-in;
         cursor: pointer; }
         .productos .productos-contenedor .productos-varios a:hover {
           color: white;
-          background-color: #9f63ff; }
+          background-color: #000000; }
 
 /*-hacer-pedidos-*/
 .pedidos {
@@ -339,9 +339,9 @@ header {
           font-size: 1rem;
           font-weight: 300;
           text-decoration: none;
-          color: #9f63ff;
+          color: #000000;
           background-color: transparent;
-          border: 1px solid #9f63ff;
+          border: 1px solid #ee98ff;
           border-radius: 10px;
           padding: 15px;
           margin-top: 10px;
@@ -349,14 +349,14 @@ header {
           cursor: pointer; }
           .suscribir .suscribir-bloque .suscribir-formu form div button:hover {
             color: white;
-            background-color: #9f63ff; }
+            background-color: #fabfff; }
 
 /*-----ACERCA DE-----*/
 /*-about-*/
 .about {
   margin: 5% 7% 5% 46%;
   padding: 20px 0px;
-  color: #131815; }
+  color: #000000; }
   .about p {
     line-height: 2rem; }
 
@@ -395,7 +395,7 @@ header {
       height: 100%;
       flex-direction: column;
       justify-content: center;
-      background-color: rgba(240, 223, 255, 0.4);
+      background-color: rgba(0, 0, 0, 0.4);
       text-align: center;
       border-radius: 10px;
       padding: 40px; }
@@ -431,7 +431,7 @@ header {
     padding: 0px 10px 10px 10px;
     margin-bottom: 30px; }
   .service-various .tabs-content {
-    background-color: rgba(240, 223, 255, 0.4);
+    background-color: rgba(255, 223, 251, 0.4);
     color: #131815;
     width: 70%;
     height: 100%;
@@ -440,7 +440,7 @@ header {
     padding: 20px;
     text-align: left; }
     .service-various .tabs-content .nav-pills {
-      --bs-nav-pills-link-active-bg: #9f63ff;
+      --bs-nav-pills-link-active-bg: #000000;
       justify-content: space-evenly;
       align-items: center; }
       .service-various .tabs-content .nav-pills .nav-item .nav-link {
@@ -517,21 +517,21 @@ header {
           transition: 500ms ease;
           cursor: pointer; }
           .gallery .gallery-content .gallery-products .colour-circle .colour:hover {
-            background-color: #bb8aff;
+            background-color: #edaaf6;
             border-radius: 50%; }
       .gallery .gallery-content .gallery-products a {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #9f63ff;
-        border: 1px solid #9f63ff;
+        color: #e6baff;
+        border: 1px solid #ef63ff;
         border-radius: 10px;
         padding: 15px;
         transition: 300ms ease-in;
         cursor: pointer; }
         .gallery .gallery-content .gallery-products a:hover {
           color: white;
-          background-color: #9f63ff; }
+          background-color: #f263ff; }
 
 /*-----CONTACTO-----*/
 /*-intro-contact-*/
@@ -565,31 +565,31 @@ header {
       padding: 10px; }
   .contact-form form .form-check .form-check-input {
     background-color: transparent;
-    border-color: #9f63ff; }
+    border-color: #f798f5; }
     .contact-form form .form-check .form-check-input:checked {
-      background-color: #9f63ff;
-      border-color: #9f63ff; }
+      background-color: #000000;
+      border-color: #ea63ff; }
   .contact-form form .form-check .form-check-label {
     padding-left: 5px; }
   .contact-form form .btn-primary {
-    border: 1px solid #9f63ff;
-    background-color: #9f63ff;
+    border: 1px solid #f08df3;
+    background-color: #e890f9;
     padding: 10px 20px;
     --bs-btn-bg: #9f63ff;
-    --bs-btn-border-color: #9f63ff;
-    --bs-btn-hover-bg: #5a31b7;
-    --bs-btn-hover-border-color: #5a31b7;
-    --bs-btn-active-bg: #5a31b7;
-    --bs-btn-active-border-color: #5a31b7;
+    --bs-btn-border-color: #f9a8fd;
+    --bs-btn-hover-bg: #ef9bfd;
+    --bs-btn-hover-border-color: #f89df8;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
     --bs-btn-disabled-bg: #5a31b7;
-    --bs-btn-disabled-border-color: #5a31b7; }
+    --bs-btn-disabled-border-color: #000000; }
     .contact-form form .btn-primary:hover {
-      border: 1px solid #5a31b7;
-      background-color: #5a31b7; }
+      border: 1px solid #000000;
+      background-color: #000000; }
 
 /*-----FOOTER-----*/
 footer {
-  background-color: #5a31b7;
+  background-color: #000000;
   padding: 50px 0px;
   color: white;
   margin-top: 100px; }
@@ -640,7 +640,7 @@ footer {
   footer p {
     font-weight: 200;
     text-align: center;
-    color: #bb8aff;
+    color: #fb8aff;
     margin-top: 20px; }
 
 /*----- MEDIA QUERY -----*/
@@ -670,13 +670,13 @@ footer {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #7b48db;
+    background-color: #eea0f8;
     border: 0px;
     border-radius: 10px;
     padding: 15px;
     cursor: pointer; }
   .servicios .servicios-tipos div a:hover {
-    background-color: #7b48db; }
+    background-color: #ef7dfe; }
   .productos {
     margin-top: 60px; }
   .productos .productos-contenedor {
@@ -696,11 +696,11 @@ footer {
     text-decoration: none;
     color: white;
     border: 0px;
-    background-color: #7b48db;
+    background-color: #000000;
     padding: 15px;
     cursor: pointer; }
   .productos .productos-contenedor .productos-varios a:hover {
-    background-color: #7b48db; }
+    background-color: #000000; }
   .pedidos {
     margin-top: 70px; }
   .suscribir h2 {
@@ -724,13 +724,13 @@ footer {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #7b48db;
+    background-color: #cf48db;
     border: 0px;
     border-radius: 10px;
     padding: 15px;
     cursor: pointer; }
   .suscribir .suscribir-bloque .suscribir-formu form div button:hover {
-    background-color: #7b48db; }
+    background-color: #000000; }
   /*about*/
   .intro {
     flex-direction: column; }
@@ -815,11 +815,11 @@ footer {
     text-decoration: none;
     color: white;
     border: 0px;
-    background-color: #7b48db;
+    background-color: #db48d9;
     padding: 15px;
     cursor: pointer; }
   .gallery .gallery-content .gallery-products a:hover {
-    background-color: #7b48db; }
+    background-color: #db48c7; }
   /*contact*/
   .intro-contact {
     flex-direction: column; }
@@ -1172,7 +1172,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-    background-color: rgba(240, 223, 255, 0.4);
+    background-color: rgba(251, 249, 252, 0.4);
     padding: 30px 20px;
     border-radius: 0px 0px 10px 10px;
     width: 400px;
