@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans", sans-serif; }
 
 .intro, .intro-service, .intro-products, .intro-contact {
-  background-color: rgba(255, 188, 253, 0.982);
+  background-color: rgba(255, 201, 255, 0.982);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -43,7 +43,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #ffa2ff;
+  background-color: #000000;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -74,9 +74,9 @@ header {
   align-items: center;
   width: 100%;
   height: 80vh;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(90, 49, 183, 0.5) 100%), url(../img/background-home-2.jpeg);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(90, 49, 183, 0.5) 100%), url("../Imagnes para subir tp/Fondooo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -96,7 +96,7 @@ header {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #f0b5ff;
+    background-color: #ffcafe;
     border-radius: 10px;
     padding: 15px;
     transition: 300ms ease-in;
@@ -153,7 +153,7 @@ header {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #ecadff;
+        color: #ffadfc;
         border: 1px solid #000000;
         border-radius: 10px;
         padding: 15px;
@@ -162,7 +162,7 @@ header {
         cursor: pointer; }
         .servicios .servicios-tipos div a:hover {
           color: white;
-          background-color: #e99bff; }
+          background-color: #ffaffb; }
 
 /*-productos-*/
 .productos {
@@ -213,13 +213,13 @@ header {
         .productos .productos-contenedor .productos-varios .content-circle .circle {
           width: 32px;
           height: 32px;
-          background-color: #dfc0ff;
+          background-color: #ffc0fe;
           border-radius: 50%;
           margin-right: 20px;
           cursor: pointer;
           transition: 500ms ease; }
           .productos .productos-contenedor .productos-varios .content-circle .circle:hover {
-            background-color: #cca1ff;
+            background-color: #ffbcfe;
             border-radius: 50%; }
       .productos .productos-contenedor .productos-varios a {
         font-size: 1rem;
@@ -308,7 +308,7 @@ header {
       justify-content: center;
       align-items: flex-start;
       text-align: left;
-      background-color: rgba(240, 223, 255, 0.4);
+      background-color: rgba(0, 0, 0, 0.4);
       padding: 30px 30px;
       border-radius: 0px 10px 10px 0px;
       width: 530px;
@@ -431,7 +431,7 @@ header {
     padding: 0px 10px 10px 10px;
     margin-bottom: 30px; }
   .service-various .tabs-content {
-    background-color: rgba(255, 223, 251, 0.4);
+    background-color: rgb(254, 198, 248);
     color: #131815;
     width: 70%;
     height: 100%;
@@ -511,13 +511,13 @@ header {
         .gallery .gallery-content .gallery-products .colour-circle .colour {
           width: 32px;
           height: 32px;
-          background-color: #dfc0ff;
+          background-color: #ffc0fb;
           border-radius: 50%;
           margin-right: 20px;
           transition: 500ms ease;
           cursor: pointer; }
           .gallery .gallery-content .gallery-products .colour-circle .colour:hover {
-            background-color: #edaaf6;
+            background-color: #f6aaee;
             border-radius: 50%; }
       .gallery .gallery-content .gallery-products a {
         font-size: 1rem;
@@ -575,13 +575,13 @@ header {
     border: 1px solid #f08df3;
     background-color: #e890f9;
     padding: 10px 20px;
-    --bs-btn-bg: #9f63ff;
+    --bs-btn-bg: #000000;
     --bs-btn-border-color: #f9a8fd;
     --bs-btn-hover-bg: #ef9bfd;
     --bs-btn-hover-border-color: #f89df8;
     --bs-btn-active-bg: #000000;
     --bs-btn-active-border-color: #000000;
-    --bs-btn-disabled-bg: #5a31b7;
+    --bs-btn-disabled-bg: #000000;
     --bs-btn-disabled-border-color: #000000; }
     .contact-form form .btn-primary:hover {
       border: 1px solid #000000;
@@ -636,7 +636,7 @@ footer {
           color: white;
           transition: 300ms ease-in; }
           footer .box div ul li a:hover {
-            color: #dfc0ff; }
+            color: #ffc0f9; }
   footer p {
     font-weight: 200;
     text-align: center;
@@ -846,7 +846,7 @@ footer {
     height: 150px;
     margin: 10px 50px 10px 10px; }
   footer .box .redes .list ul li a i:hover {
-    color: #f0dfff; } }
+    color: #ffc6fa; } }
 
 /*MAX-WIDTH-576PX*/
 @media only screen and (max-width: 576px) {
@@ -1172,7 +1172,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-    background-color: rgba(251, 249, 252, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 30px 20px;
     border-radius: 0px 0px 10px 10px;
     width: 400px;
