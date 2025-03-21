@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- KEYWORDS -->
-    <meta name="keywords" content="delivery, carteras, accsesorios,  temporada, outfit, pago, contraentrega, debito, credito">
+    <meta
+      name="keywords"
+      content="delivery, carteras, accsesorios,  temporada, outfit, pago, contraentrega, debito, credito"
+    />
     <!-- DESCRIPTION-->
-    <meta name="description" content="Encuentra variedad de ropa de temporada, accesorios y más en un solo lugar. Hacemos envíos dentro de Lima Metropolitana.">
+    <meta
+      name="description"
+      content="Encuentra variedad de ropa de temporada, accesorios y más en un solo lugar. Hacemos envíos dentro de Lima Metropolitana."
+    />
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="../Imagnes para subir tp/logoo.png" type="png" sizes="192px"/>
+    <link
+      rel="shortcut icon"
+      href="../Imagnes para subir tp/logoo.png"
+      type="png"
+      sizes="192px"
+    />
     <!-- ANIMATIONS -->
     <link
       rel="stylesheet"
@@ -28,140 +39,68 @@
       crossorigin="anonymous"
     />
     <!-- MY CSS -->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/carrito.css" />
     <title>Servicios | Angeli.Accsesorios | Tienda Online</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html" target="_self"
-            ><img src="../Imagnes para subir tp/logoo.png" alt="logo Angeli"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./about.html" target="_self"
-                  >Acerca de</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./services.html" target="_self">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./products.html" target="_self">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html" target="_self">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <header></header>
 
     <main>
-      <section class="intro-service">
-        <div>
-          <h1>Nuestros servicios</h1>
-          <p>
-            Elige entre las opciones de servicios de tu preferencia.
-          </p>
-        </div>
-        <img src="../Imagnes para subir tp/servicios.jpg" alt="nuestros servicios"/>
-      </section>
-
-      <section class="service-various">
-        <h3>Servicios</h3>
-        <h2>Tenemos dos tipos de servicios para ti.</h2>
-
-        <div class="tabs-content">
-          <ul class="nav nav-pills mb-3 flex-column flex-sm-row" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Compras por stock
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Compras por pedido
-              </button>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-              <h3>Pedidos de productos en stock</h3>
-              <p>
-                Ofrecemos este servicio a todos nuestros clientes que estén interesados en adquirir nuestros productos disponibles en nuestra tienda. 
-              </p>
-              <p>
-                También pueden pedir de forma anticipada productos que están siempre en nuestro catálogo de productos por la demanda.
-                Nos permite garantizar que los productos estén disponibles para la compra, mejorar la eficiencia y brindar una amplia selección de productos a nuestros clientes.
-              </p>
-            </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-              <h3>Pedidos de carteras personalizadas </h3>
-              <p>
-                Este servicio está dirigido a todos nuestros clientes que estén interesados en realizar una solicitud específica de algunos de los productos y recibirlo en un plazo determinado.
-              </p>
-              <p>
-                Estas compras requieren que nuestro cliente haga una solicitud previa y espere a que sea enviada y entregada. Son para productos que no están disponibles en la tienda en línea, o para productos personalizados o de baja demanda.
-              </p>
-            </div>
-          </div>
-        </div>
+      <section id="lista-productos">
+        <h1>Carrito de compras</h1>
+        <div id="productos-container-carrito"></div>
+        <div id="total-container"></div>
       </section>
     </main>
+    <script type="module" src="../js/carrito.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Crea la instancia del carrito, si aún no existe globalmente
+        const carrito = new Carrito();
+        // Muestra el contenido del carrito al cargar la página
+        carrito.mostrarCarrito();
+      });
+    </script>
 
-    <footer>
-      <div class="box">
-        <img src="../Imagnes para subir tp/logoo.png" alt="logo Gamashop blanco" />
-        <div class="redes">
-          <h3>Nuestras redes</h3>
-          <div class="list">
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/profile.php?id=100075227811464" target="_blank">
-                  <i class="bx bxl-facebook-circle bx-tada-hover"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/_angeliaccessories_/" target="_blank">
-                  <i class="bx bxl-instagram bx-tada-hover"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <h3>Centro de Ayuda</h3>
-          <ul>
-            <li><a href="#">Envíos</a></li>
-            <li><a href="#">Opciones de pago</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Mapa de Sitio</h3>
-          <ul>
-            <li><a href="../pages/about.html">Acerca de</a></li>
-            <li><a href="../pages/services.html">Servicios</a></li>
-            <li><a href="../pages/products.html">Productos</a></li>
-            <li><a href="../pages/contact.html">Contacto</a></li>
-            <li><a href="./pages/carrito.html">Carrito</a></li>
-          </ul>
-        </div>
-      </div>
-      <p>© 2025 Angeli.Accsesorios | All Rights Reserved</p>
-    </footer>
+    <section class="footer">
+      <div id="footer-container"></div>
+    </section>
+
+    <script>
+      //Objeter dinamicamente el navbar
+      fetch("../componente/navbar.html")
+        .then((response) => {
+          if (!response.ok) {
+            //esto lo que hace es que si no se puede cargar el navbar, muestre un mensaje de error en la consola
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          //si se puede cargar el navbar, lo retorna en formato texto
+          return response.text();
+        })
+        .then((data) => {
+          //se inserta el navbar en el header como primer hijo
+          document.getElementsByTagName("header")[0].innerHTML = data;
+        })
+        .catch((error) => console.error("Error al cargar el navbar:", error));
+    </script>
+    <script>
+      //Objeter dinamicamente el footer
+      fetch("../componente/footer.html")
+        .then((response) => {
+          if (!response.ok) {
+            //esto lo que hace es que si no se puede cargar el footer, muestre un mensaje de error en la consola
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          //si se puede cargar el footer, lo retorna en formato texto
+          return response.text();
+        })
+        .then((data) => {
+          //se inserta el footer en el div con id footer-container
+          document.getElementById("footer-container").innerHTML = data;
+        })
+        .catch((error) => console.error("Error al cargar el footer:", error));
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

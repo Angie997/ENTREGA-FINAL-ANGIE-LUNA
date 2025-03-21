@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans", sans-serif; }
 
 .intro, .intro-service, .intro-products, .intro-contact {
-  background-color: rgba(255, 201, 255, 0.982);
+  background-color: rgb(171, 154, 139);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -76,7 +76,7 @@ header {
   height: 80vh;
   color: rgb(0, 0, 0);
   text-align: center;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(90, 49, 183, 0.5) 100%), url("../Imagnes para subir tp/Fondooo.jpg");
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 20%, rgba(114, 104, 89, 0.689) 100%), url("../Imagnes para subir tp/Fondooo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -96,7 +96,7 @@ header {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #ffcafe;
+    background-color:rgb(171, 154, 139);
     border-radius: 10px;
     padding: 15px;
     transition: 300ms ease-in;
@@ -153,7 +153,7 @@ header {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #ffadfc;
+        color: rgb(171, 154, 139);
         border: 1px solid #000000;
         border-radius: 10px;
         padding: 15px;
@@ -162,9 +162,22 @@ header {
         cursor: pointer; }
         .servicios .servicios-tipos div a:hover {
           color: white;
-          background-color: #ffaffb; }
+          background-color:rgb(171, 154, 139) ; }
 
 /*-productos-*/
+.btn-restar, .btn-sumar {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: transform 0.2s ease-in-out;
+  }
+  /* Efecto al pasar el mouse */
+.btn-sumar:hover, .btn-restar:hover {
+  transform: scale(1.2);
+}
 .productos {
   margin-top: 70px;
   color: #131815; }
@@ -213,13 +226,13 @@ header {
         .productos .productos-contenedor .productos-varios .content-circle .circle {
           width: 32px;
           height: 32px;
-          background-color: #ffc0fe;
+          background-color:rgb(171, 154, 139) ;
           border-radius: 50%;
           margin-right: 20px;
           cursor: pointer;
           transition: 500ms ease; }
           .productos .productos-contenedor .productos-varios .content-circle .circle:hover {
-            background-color: #ffbcfe;
+            background-color:rgb(171, 154, 139) ;
             border-radius: 50%; }
       .productos .productos-contenedor .productos-varios a {
         font-size: 1rem;
@@ -308,7 +321,7 @@ header {
       justify-content: center;
       align-items: flex-start;
       text-align: left;
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgb(171, 154, 139);
       padding: 30px 30px;
       border-radius: 0px 10px 10px 0px;
       width: 530px;
@@ -341,7 +354,7 @@ header {
           text-decoration: none;
           color: #000000;
           background-color: transparent;
-          border: 1px solid #ee98ff;
+          border: 1px solid rgb(171, 154, 139);
           border-radius: 10px;
           padding: 15px;
           margin-top: 10px;
@@ -349,7 +362,7 @@ header {
           cursor: pointer; }
           .suscribir .suscribir-bloque .suscribir-formu form div button:hover {
             color: white;
-            background-color: #fabfff; }
+            background-color:rgb(171, 154, 139) ; }
 
 /*-----ACERCA DE-----*/
 /*-about-*/
@@ -395,7 +408,7 @@ header {
       height: 100%;
       flex-direction: column;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgb(171, 154, 139);
       text-align: center;
       border-radius: 10px;
       padding: 40px; }
@@ -431,7 +444,7 @@ header {
     padding: 0px 10px 10px 10px;
     margin-bottom: 30px; }
   .service-various .tabs-content {
-    background-color: rgb(254, 198, 248);
+    background-color:rgb(171, 154, 139) ;
     color: #131815;
     width: 70%;
     height: 100%;
@@ -511,27 +524,27 @@ header {
         .gallery .gallery-content .gallery-products .colour-circle .colour {
           width: 32px;
           height: 32px;
-          background-color: #ffc0fb;
+          background-color: rgb(171, 154, 139);
           border-radius: 50%;
           margin-right: 20px;
           transition: 500ms ease;
           cursor: pointer; }
           .gallery .gallery-content .gallery-products .colour-circle .colour:hover {
-            background-color: #f6aaee;
+            background-color:rgb(171, 154, 139) ;
             border-radius: 50%; }
       .gallery .gallery-content .gallery-products a {
         font-size: 1rem;
         font-weight: 300;
         text-decoration: none;
-        color: #e6baff;
-        border: 1px solid #ef63ff;
+        color: rgb(171, 154, 139);
+        border: 1px solid rgb(171, 154, 139);
         border-radius: 10px;
         padding: 15px;
         transition: 300ms ease-in;
         cursor: pointer; }
         .gallery .gallery-content .gallery-products a:hover {
           color: white;
-          background-color: #f263ff; }
+          background-color:rgb(171, 154, 139) ; }
 
 /*-----CONTACTO-----*/
 /*-intro-contact-*/
@@ -565,20 +578,20 @@ header {
       padding: 10px; }
   .contact-form form .form-check .form-check-input {
     background-color: transparent;
-    border-color: #f798f5; }
+    border-color:rgb(171, 154, 139); }
     .contact-form form .form-check .form-check-input:checked {
       background-color: #000000;
-      border-color: #ea63ff; }
+      border-color: rgb(171, 154, 139); }
   .contact-form form .form-check .form-check-label {
     padding-left: 5px; }
   .contact-form form .btn-primary {
-    border: 1px solid #f08df3;
-    background-color: #e890f9;
+    border: 1px solid rgb(171, 154, 139);
+    background-color: rgb(171, 154, 139);
     padding: 10px 20px;
     --bs-btn-bg: #000000;
-    --bs-btn-border-color: #f9a8fd;
-    --bs-btn-hover-bg: #ef9bfd;
-    --bs-btn-hover-border-color: #f89df8;
+    --bs-btn-border-color:rgb(171, 154, 139) ;
+    --bs-btn-hover-bg: rgb(171, 154, 139);
+    --bs-btn-hover-border-color: rgb(171, 154, 139);
     --bs-btn-active-bg: #000000;
     --bs-btn-active-border-color: #000000;
     --bs-btn-disabled-bg: #000000;
@@ -636,11 +649,11 @@ footer {
           color: white;
           transition: 300ms ease-in; }
           footer .box div ul li a:hover {
-            color: #ffc0f9; }
+            color: rgb(171, 154, 139); }
   footer p {
     font-weight: 200;
     text-align: center;
-    color: #fb8aff;
+    color: rgb(171, 154, 139);
     margin-top: 20px; }
 
 /*----- MEDIA QUERY -----*/
@@ -670,13 +683,13 @@ footer {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #eea0f8;
+    background-color:rgb(171, 154, 139) ;
     border: 0px;
     border-radius: 10px;
     padding: 15px;
     cursor: pointer; }
   .servicios .servicios-tipos div a:hover {
-    background-color: #ef7dfe; }
+    background-color: rgb(171, 154, 139); }
   .productos {
     margin-top: 60px; }
   .productos .productos-contenedor {
@@ -724,7 +737,7 @@ footer {
     font-weight: 300;
     text-decoration: none;
     color: white;
-    background-color: #cf48db;
+    background-color:rgb(171, 154, 139) ;
     border: 0px;
     border-radius: 10px;
     padding: 15px;
@@ -815,11 +828,11 @@ footer {
     text-decoration: none;
     color: white;
     border: 0px;
-    background-color: #db48d9;
+    background-color: rgb(171, 154, 139);
     padding: 15px;
     cursor: pointer; }
   .gallery .gallery-content .gallery-products a:hover {
-    background-color: #db48c7; }
+    background-color: rgb(171, 154, 139); }
   /*contact*/
   .intro-contact {
     flex-direction: column; }
@@ -846,7 +859,7 @@ footer {
     height: 150px;
     margin: 10px 50px 10px 10px; }
   footer .box .redes .list ul li a i:hover {
-    color: #ffc6fa; } }
+    color: rgb(171, 154, 139);; } }
 
 /*MAX-WIDTH-576PX*/
 @media only screen and (max-width: 576px) {
@@ -1293,7 +1306,9 @@ footer {
   .gallery .gallery-content .gallery-products div img {
     width: 350px;
     height: 100%; }
-  /*contact*/
+
+  
+  /*contact*/ 
   .intro-contact {
     flex-direction: column; }
   .intro-contact div {

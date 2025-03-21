@@ -1,0 +1,72 @@
+/* Estilo para el título */
+#lista-productos h1 {
+    text-align: center;
+    background-color: rgb(171, 154, 139);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Contenedor de la lista de productos */
+  #productos-container-carrito {
+    padding: 20px;
+  }
+  
+  /* Estilo para cada producto en la lista */
+  .producto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  /* Contenedor de información del producto */
+  .producto-info {
+    flex: 1;
+  }
+  
+  /* Estilo para la imagen del producto */
+  .producto-imagen {
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  /* Estilo para los botones de sumar y restar */
+  .btn-sumar, .btn-restar {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Efecto al pasar el mouse */
+  .btn-sumar:hover, .btn-restar:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Estilo para la cantidad del producto */
+  .cantidad-producto {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  /* Estilo para el total individual de cada producto */
+  .total-lista-productos {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 20px;
+    
+  }
